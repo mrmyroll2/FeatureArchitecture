@@ -1,0 +1,68 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Static code analysis -->
+    <PackageVersion Include="Scrutor" Version="6.0.1" />
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.10.0.116381" />
+    <!-- Aspire.AppHost -->
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="9.3.0" />
+    <PackageVersion Include="Aspire.Hosting.NodeJs" Version="9.3.0" />
+    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="9.3.0" />
+    <PackageVersion Include="Aspire.Hosting.Redis" Version="9.3.0" />
+    <PackageVersion Include="Aspire.Hosting.MongoDB" Version="9.3.0" />
+    <PackageVersion Include="IDisposableAnalyzers" Version="4.0.8" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.3" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Hybrid" Version="9.5.0" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.5.0" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="9.3.0" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.12.0" />
+    <!-- SharedKernel / Domain -->
+    <!-- Application -->
+    <PackageVersion Include="Dapper" Version="2.1.66" />
+    <PackageVersion Include="Aspire.StackExchange.Redis.DistributedCaching" Version="9.3.0" />
+    <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.5" />
+    <PackageVersion Include="Serilog" Version="4.3.0" />
+    <PackageVersion Include="ZiggyCreatures.FusionCache" Version="2.2.0" />
+    <PackageVersion Include="ZiggyCreatures.FusionCache.Backplane.StackExchangeRedis" Version="2.2.0" />
+    <PackageVersion Include="ZiggyCreatures.FusionCache.Serialization.NewtonsoftJson" Version="2.2.0" />
+    <!-- Infrastructure / Persistence-->
+    <PackageVersion Include="AspNetCore.HealthChecks.NpgSql" Version="9.0.0" />
+    <PackageVersion Include="EFCore.NamingConventions" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="9.0.1" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.3.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5" />
+    <PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="9.103.8.1" />
+    <!-- Web.Api -->
+    <PackageVersion Include="AspNetCore.HealthChecks.UI.Client" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
+    <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.2" />
+    <PackageVersion Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Seq" Version="9.0.0" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="8.1.2" />
+    <!-- ArchitectureTests -->
+    <PackageVersion Include="Shouldly" Version="4.2.1" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.0" />
+    <PackageVersion Include="NetArchTest.Rules" Version="1.3.2" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageVersion>
+    <PackageVersion Include="coverlet.collector" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageVersion>
+  </ItemGroup>
+</Project>
